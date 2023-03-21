@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: myconfig
+data:
+  # property-like keys; each key maps to a simple value
+  some_key: "some-value"
